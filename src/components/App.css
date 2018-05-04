@@ -1,0 +1,7 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('../assets/images/astronomy-dark-evening-176851.jpg') no-repeat 50% 50%;
+  background-size: cover;
+}

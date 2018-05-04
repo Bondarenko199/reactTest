@@ -1,0 +1,27 @@
+.MainButton {
+  padding: 12px 18px;
+  margin: 6px 3px;
+  font-size: 18px;
+  color: #22264b;
+  background-color: transparent;
+  border: none;
+  border-radius: 2px;
+  transition: .2s ease-in-out;
+}
+
+.MainButton:before {
+  display: inline-block;
+  line-height: 24px;
+}
+
+.MainButton:hover {
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.MainButton.-Card {
+  padding: 2px 6px;
+  margin: 0;
+  font-size: 16px;
+}

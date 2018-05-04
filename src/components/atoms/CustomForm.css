@@ -1,0 +1,22 @@
+.CustomForm {
+  width: 100%;
+  padding: 18px 18px 17px;
+}
+
+.CustomInput {
+  width: 100%;
+  font: 18px 'Roboto', sans-serif;
+  color: #22264b;
+  line-height: 24px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.CustomForm.-Card {
+  padding: 2px 2px 1px;
+}
+
+.CustomForm.-Card .CustomInput {
+  font-size: 16px;
+}

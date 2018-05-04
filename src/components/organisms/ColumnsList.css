@@ -1,0 +1,19 @@
+.ColumnsList {
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+  overflow-x: auto;
+}
+
+.ColumnsList::-webkit-scrollbar {
+  height: 6px;
+}
+
+.ColumnsList::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 2px;
+}
+
+.ColumnsList::-webkit-scrollbar-corner {
+  display: none;
+}

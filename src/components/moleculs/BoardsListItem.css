@@ -1,0 +1,25 @@
+.BoardsListItem {
+  width: 33.3333%;
+  padding: 8px;
+}
+
+.BoardsListItemWrapper {
+  display: flex;
+  align-items: center;
+  background: rgba(197, 213, 203, .85);
+  border-radius: 2px;
+}
+
+.BoardsListItemLink {
+  padding: 18px;
+  flex: 1;
+  font: 18px 'Roboto', sans-serif;
+  line-height: 24px;
+  color: #22264b;
+  word-break: break-all;
+  transition: .2s ease-in-out;
+}
+
+.BoardsListItemLink:hover {
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+.ColumnsListItem {
+  min-width: 25%;
+  max-width: 25%;
+  padding: 8px;
+}
+
+.ColumnsListItemWrapper {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background: rgba(197, 213, 203, .85);
+  border-radius: 2px;
+}
+
+.ColumnsListItemText {
+  padding: 18px;
+  flex: 1;
+  font: 18px 'Roboto', sans-serif;
+  line-height: 24px;
+  color: #22264b;
+  word-break: break-all;
+  transition: .2s ease-in-out;
+}
+
+.ColumnsListItemLink:hover {
+  color: #fff;
+}
